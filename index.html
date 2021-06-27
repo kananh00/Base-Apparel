@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;350;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="website_wrapper">
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+      </header>
+      <main>
+        <section>
+          <div class="girl_img_mob">
+            <img class="hero" src="images/hero-mobile.jpg" alt="girl image mobile">
+          </div>
+          <div class="desc">
+            <h1><span class="colored_txt">We're</span> coming <br>soon</h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          </div>
+          <div class="form">
+            <form>
+              <div class="input_wrapper">
+                <input id="email" type="email" placeholder="Email Adress" class="email"> 
+              <p id="email-error">Please provide a valid email</p>
+              </div>
+              <div id="error-icon">
+                <img class="error_icon_img" src="images/icon-error.svg" alt="error sign">
+              </div>
+               <button id="arrow-button" class="arrow_btn">
+                <img src="images/icon-arrow.svg" alt="arrow">
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="desk_img">
+        <img class="hero_desktop" src="images/hero-desktop.jpg" alt="desktop_img">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
